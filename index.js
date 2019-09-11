@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 mongoose.connect(
-	process.env.MONGODB_URI || "mongodb://localhost:27017/expenses-report",
+	"mongodb://heroku_1bww0lrm:bbm1o0lfnllv6h10vt6o0de552@ds159188.mlab.com:59188/heroku_1bww0lrm",
 	{
 		useNewUrlParser: true
 	}
